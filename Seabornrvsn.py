@@ -10,7 +10,6 @@ import pandas as pd
 os.chdir('/Users/utkarshkushwaha/Desktop/Spyderworkspace/DataScience_rvidon')
 import seaborn
 
-
 df = sns.load_dataset('https://www.kaggle.com/ranjeetjain3/seaborn-tips-dataset')
 df = pd.read_csv('tips.csv')
 
